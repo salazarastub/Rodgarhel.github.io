@@ -4,8 +4,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <script
+      src="https://kit.fontawesome.com/7039123fb7.js"
+      crossorigin="anonymous"></script>
 </head>
 <body>
+     <!--navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fs-3 fw-bold fh-5" href="#"> RODRIGO GARCIA - PORTAFOLIO </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+            <li class="nav-item">
+              <a class="nav-link" href="#Hero-Section">Acerca de mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#News" >Media</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Educacion">Educación</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="Hero-Section" class="text-light text-end py-5 mt-5">
+      <div class="container">
+        <div class="ms-auto col-12 col-md-7">
+          <h1 class="display-1 fw-bold my-5">
+            Portafolio Web </h1>
+                    
+        </div>
+      </div>
+    </header>
+    <!--Main body-->
     
+<section id="portafolio" class="my-3 p-2 bg-light">
+
+<div class="row">
+        <div class="col-12 col-sm-4 py-2">
+          <div class="card">
+            <div class="image-top">
+             
+            </div>
+            <div class="card-body">
+               <h5 class="card-title fw-bold text-center">Reel de Animacion 3D</h5>              
+              <p class="card-text">
+                Mi reel de animacion les mostrará la calidad de mi trabajo y con que clientes he colaborado.
+              </p>             
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 py-2">
+          <div class="card">
+            <div class="image-top" style="background-image:url(./assets/img/port_01.png)">
+              
+            </div>
+                        <div class="card-body">
+              <h5 class="card-title fw-bold text-center">Olivia Y el Terremoto Invisible</h5>              
+              <p class="card-text ">
+                Por fin sale la pelicula en la que ayude a crear las expresiones faciales de los personajes. Es una hermosa historia con una increible  animacion, no se la pierdan!
+              </p>              
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 py-2">
+          <div class="card" >
+            <div class="image-top"
+              style="background-image:url(./assets/img/port_02.png)">
+          </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-center">Tormented Souls 2</h5>
+              <p class="card-text">
+                Se lanza el trailer oficial  del juego en el que anime varias cinematicas. 
+              </p>              
+            </div>
+          </div>
+        </div>
+      </div>   
+</section>
+  <!--footer-->
+<footer class="bg-dark text-center text-light p-4">
+      <p class="mb-0"> &copy Rodrigo Garcia 2026. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- bootstrap libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>  
 </body>
 </html>
